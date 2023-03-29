@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+                                                  /* Mobile first */
+
+.encabezado{
+    font-family: 'Silkscreen', cursive;
+    background-color: rgb(18, 14, 15);
+    padding: 20px;
+    border: black 3px solid;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+.encabezado__menu li{
+    display: inline-block;
+    font-weight: 700;
+    padding-left: 5rem;
+}
+
+.encabezado__menu a{
+text-decoration: none;
+color: rgb(21, 140, 0);
+} 
+
+
+
+.contenedor_img {
+    width: 50%;
+    padding: 0.5rem;
+    background-color: rgba(137, 43, 226, 0);
+}
+
+.contenedor_img img{
+    width: 90%;
+} 
+
+.contacto_formulario{
+    background-image: url(./imgc3/fondo_avengers.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+}
+
+.formulario_input{
+    padding: 20px;
+    align-items: center;
+}
+
+/*-----NOSOTROS----*/  
+
+.btn_nosotros{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(134, 189, 107);
+    }
+.btn_nosotros ul li {
+        list-style-type: none;
+        display:inline-block;
+        text-decoration: none;
+        padding: 1rem;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+.btn_nosotros a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+
+    .info_nosotros{
+        padding: 1rem;
+      align-items: center;
+        background-color: rgb(181, 45, 194);
+    }
+ 
+    .nosotros{
+        
+    display: flex;
+    align-items: stretch;
+    }
+
+body{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.875);
+    width: 767px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+
+.contenido_banner{
+    background-color: rgba(83, 85, 211, 0);
+    border: black 2px solid;
+}
+
+.contenido_banner img{
+
+    width: 100%;
+}
+
+
+.introduccion{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(181, 45, 194);
+    /* width: 60%; */
+    border: black 2px solid;
+    
+}
+
+.contenido_personajes_principales{
+    display: flex;
+    background-color: rgba(24, 30, 139, 0);
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    
+
+}
+
+
+
+.contenido_imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgba(139, 0, 139, 0); 
+    width: 50%;
+   
+}
+
+.contenido_imagen img{
+    width: 100%;
+    
+    
+}
+
+.contenido_orden_cronologico{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(134, 189, 107);
+    padding: 30px;
+    border: black 2px solid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+ }
+
+
+.contenido_peliculas{
+
+    display: flex;
+}
+
+
+.contenido_diferencia_comics{
+    background-color: rgb(181, 45, 194);
+padding: 30px;
+ /* width: 40%;  */
+border: black 3px solid;
+
+}
+
+.contenido_proximamente{
+
+    background-color: rgb(134, 189, 107);
+    padding: 20px;
+    border: black 3px solid;
+}
+
+
+
+.footer{
+    background-color: rgb(33, 23, 25);
+    color: rgb(21, 140, 0);
+    border: black 3px solid;
+    padding: 20px;
+    /* height: 20vh; */
+}   
+
+                                              /* Tableta */
+
+
+@media(min-width:768px){
+    
+    
+    .encabezado{
+        font-family: 'Silkscreen', cursive;
+        background-color: rgb(18, 14, 15);
+        padding: 20px;
+        border: black 3px solid;
+        list-style: none;
+        text-align: center;
+    }
+    
+    
+    
+    .encabezado__menu li{
+        display: inline-block;
+        font-weight: 700;
+        padding-left: 5rem;
+    }
+    
+    .encabezado__menu a{
+    text-decoration: none;
+    color: rgb(21, 140, 0);
+    } 
+    
+
+
+
+   
+
+    
+    
+    body{
+        display: flex;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 900;
+        background-color: rgba(0, 0, 0, 0.875);
+        width: 767px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+    
+    
+    .contenido_banner{
+        background-color: rgba(165, 42, 42, 0);
+        border: black 2px solid;
+    }
+    
+    .contenido_banner img{
+    
+        width: 100%;
+    }
+    
+.contenedor_img {
+    width: 50%;
+    padding: 0.5rem;
+    background-color: rgba(137, 43, 226, 0);
+}
+
+.contenedor_img img{
+    width: 90%;
+} 
+
+    /*-----NOSOTROS----*/  
+
+.btn_nosotros{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(134, 189, 107);
+    }
+.btn_nosotros ul li {
+        list-style-type: none;
+        display:inline-block;
+        text-decoration: none;
+        padding: 1rem;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+.btn_nosotros a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+
+    .info_nosotros{
+        padding: 1rem;
+        align-items: center;
+        background-color: rgb(181, 45, 194);
+
+    }
+
+    
+    .nosotros{
+        
+        display: flex;
+        align-items: stretch;
+        }
+
+
+    .contacto_formulario{
+        background-image: url(./imgc3/fondo_avengers.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: rgb(0, 0, 0);
+    }
+
+    .formulario_input{
+        padding: 20px;
+        align-items: center;
+    }
+    
+    .padre{
+
+        display: flex;
+    }
+    
+    
+    .introduccion{
+        display: flex;
+        font-family: 'Noto Sans', sans-serif;
+        background-color: rgb(181, 45, 194);
+        width: 50%;
+        border: black 2px solid;
+        flex-direction: column;
+    }
+    
+    .contenido_personajes_principales{
+        display: flex;
+        background-color: rgba(106, 49, 134, 0);
+        width: 100%;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+        
+    
+    }
+    
+    
+    
+    .contenido_imagen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        background-color: rgba(139, 0, 139, 0); 
+        width: 50%;
+       
+    }
+    
+    .contenido_imagen img{
+        width: 100%;
+        
+        
+    }
+
+    
+
+    
+}
+  
+     .contenido_orden_cronologico{
+        display: flex;
+        font-family: 'Noto Sans', sans-serif;
+        background-color: rgb(134, 189, 107);
+        padding: 30px;
+        border: black 2px solid;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        
+     } 
+    
+    
+    .contenido_peliculas{
+    
+        display: flex;
+    }
+    
+
+    .contenido_diferencia_comics{
+        display: flex;
+    background-color: darkkhaki;
+    padding: 30px;
+     width: 40%; 
+    border: black 3px solid;
+    
+    }
+
+    .contenido_proximamente{
+
+        background-color: rgb(181, 45, 194);
+        padding: 20px;
+        border: black 3px solid;
+    }
+    
+    
+ 
+.footer{
+    background-color: rgb(18, 14, 15);
+    color: rgb(21, 140, 0);
+    border: black 3px solid;
+    padding: 20px;
+    /* height: 20vh; */
+}   
+
+ 
+                                              /* Escritorio  */
+
+  @media(min-width:992px){
+
+ 
+
+  
+  
+.encabezado{
+    font-family: 'Silkscreen', cursive;
+    background-color: rgb(18, 14, 15);
+    padding: 20px;
+    border: black 3px solid;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+.encabezado__menu li{
+    display: inline-block;
+    font-weight: 700;
+    padding-left: 5rem;
+}
+
+.encabezado__menu a{
+text-decoration: none;
+color: rgb(21, 140, 0);
+
+}
+
+
+.contenido_banner{
+    background-color: rgb(0, 0, 0);
+    border: black 2px solid;
+}
+
+.contenido_banner img{
+
+    width: 100%;
+}
+
+
+
+.contenedor_img {
+    width: 50%;
+    padding: 0.5rem;
+    background-color: rgba(137, 43, 226, 0);
+}
+
+.contenedor_img img{
+    width: 90%;
+} 
+
+/*-----NOSOTROS----*/  
+
+.btn_nosotros{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(134, 189, 107);
+    }
+.btn_nosotros ul li {
+        list-style-type: none;
+        display:inline-block;
+        text-decoration: none;
+        padding: 1rem;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+.btn_nosotros a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+
+   
+ 
+    .info_nosotros{
+        padding: 1rem;
+        align-items: center;
+        background-color: rgb(181, 45, 194);
+    }
+ 
+
+    
+    .nosotros{
+        
+        display: flex;
+        align-items: stretch;
+        }
+
+/*     
+    .contenedor_img {
+        width: 50%;
+        padding: 0.5rem;
+        background-color: blueviolet;
+    }
+    
+    .contenedor_img img{
+        width: 90%;
+    }  
+ */
+
+.padre{
+
+    display: flex;
+}
+
+
+
+body{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+  background-color: rgba(0, 0, 0, 0.856);
+     width: 960px; 
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+
+
+.introduccion{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(134, 189, 107);
+    padding: 20px;
+    /* width: 50%; */
+    border: black 2px solid;
+    flex-direction: column;
+    
+}
+
+.contenido_personajes_principales{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    
+    
+
+}
+
+
+
+.contenido_imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0);
+    width: 50%;
+   
+}
+
+.contenido_imagen img{
+    width: 100%;
+    
+    
+}
+
+
+
+.segunda_columna{
+    display: flex;
+}
+
+
+.contenido_orden_cronologico{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(181, 45, 194);
+    padding: 30px;
+    border: black 2px solid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+     /* width: 500%;  */
+    
+}
+
+
+.contenido_imagen_avengers img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenido_peliculas{
+    padding: 1rem;
+    display: flex;
+}
+
+
+.contenido_diferencia_comics{
+background-color: rgb(134, 189, 107);
+padding: 30px;
+ /* float: left; */
+ width: 50%; 
+border: black 3px solid;
+
+}
+
+.contenido_proximamente{
+ 
+    display: flex;
+    color: ghostwhite;
+    background-color: rgb(4, 4, 4);
+    padding: 20px;
+    border: black 3px solid;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    background-color: rgb(18, 14, 15);
+    color: rgb(21, 140, 0);
+    border: black 3px solid;
+    padding: 20px;
+    /* height: 20vh; */
+}   
+
+}
